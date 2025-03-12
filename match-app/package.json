@@ -1,10 +1,12 @@
 {
+  "homepage": "https://mark-andre17.github.io/match-app/",
   "name": "match-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mark-andre17.github.io/match-app/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -14,9 +16,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-virtualized-auto-sizer": "^1.0.25",
-    "react-window": "^1.8.11",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "react-window": "^1.8.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
