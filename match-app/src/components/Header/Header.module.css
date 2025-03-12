@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 37px 0px;
+    font-family: 'Tactic Sans';
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+.header_button{
+    font-family: 'Tactic Sans';
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    width: 204px;
+    padding: 17px 40px;
+    border: none;
+    background-color: #EB0237;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+}

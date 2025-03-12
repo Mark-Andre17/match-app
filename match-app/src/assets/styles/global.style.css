@@ -1,0 +1,24 @@
+@import '../fonts/stylesheet.css';
+
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;    
+    background-color: #090909;
+
+}
+button, p, a, h1, h2, h3, h4, h5, h6, img, input, textarea, select{
+    margin: 0;
+    padding: 0;
+}
+li, ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+button{
+    cursor: pointer;
+}
